@@ -46,6 +46,8 @@ pip install -r requirements.txt
 🖥️ Usage
 bash
 python arhacx_analyzer.py
+
+
 Enter password in the input field
 
 Toggle visibility with the eye (👁️) button
@@ -83,4 +85,3 @@ Recommended for offline use in secure environments
 🤝 Contributing
 Pull requests welcome! For major changes, please open an issue first.
 
-Developed by CyAd Solution © 2025
