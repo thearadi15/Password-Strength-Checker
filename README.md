@@ -1,5 +1,5 @@
 ![image](https://github.com/user-attachments/assets/bef426e2-0c36-4926-9385-5e7c8d1a4032)# Password-Strength-Checker
-# 🔒 ARHACX Password Analyzer v3.0
+# 🔒 ARHACX Stealth Analyzer v3.0
 
 
 
@@ -34,7 +34,7 @@ A sophisticated password security analysis tool with military-grade evaluation a
 - Python 3.8+
 - Tkinter (usually included with Python)
 
-```bash
+bash
 # Clone the repository
 git clone https://github.com/yourusername/arhacx-password-analyzer.git
 
@@ -48,40 +48,63 @@ bash
 python arhacx_analyzer.py
 
 
-Enter password in the input field
+## 🖥️ How to Use
 
-Toggle visibility with the eye (👁️) button
+1. **Enter Password**  
+   ```bash
+   [Password Input Field]
+Type your password (shows as ••••• by default)
 
-Click "ANALYZE" or press Enter
+Toggle Visibility
 
-Review detailed security report
 
-📊 Analysis Criteria
-Criteria	Weight
-Length ≥12 chars	25%
-Uppercase letters	15%
-Lowercase letters	15%
-Numbers	20%
-Special characters	25%
-Common password	-30%
-🌟 Rating System
-Strength	Score Range	Color
-Critical	0-39%	🔴 Red
-Moderate	40-59%	🟡 Yellow
-Strong	60-79%	🟢 Green
-Maximum	80-100%	💎 Blue
-📜 License
-MIT License - See LICENSE for details
+[Press 👁️] to show/hide password
+Initiate Analysis
 
-🛡️ Security Notice
-This tool:
+[Press ANALYZE] or hit [Enter]
+View Results
 
-Does NOT store or transmit passwords
 
-Performs all analysis locally
+===== SECURITY REPORT =====
+• Length: 14 chars ✓
+• Complexity: ★★★☆ (3/4)
+• Status: STRONG (78%)
+📊 How We Calculate Strength
 
-Recommended for offline use in secure environments
+┌──────────────────────┬─────────┐
+│      Criteria        │ Weight  │
+├──────────────────────┼─────────┤
+│ Length ≥12 chars     │   25%   │
+│ Uppercase letters    │   15%   │
+│ Lowercase letters    │   15%   │
+│ Numbers              │   20%   │
+│ Special characters   │   25%   │
+│ Common password      │  -30%   │
+└──────────────────────┴─────────┘
+🏆 Strength Ratings
 
-🤝 Contributing
-Pull requests welcome! For major changes, please open an issue first.
+┌─────────────┬─────────────┬───────────────┐
+│   Strength  │ Score Range │    Visual     │
+├─────────────┼─────────────┼───────────────┤
+│  Critical   │   0-39%     │ 🔴 RED        │
+│  Moderate   │  40-59%     │ 🟡 YELLOW     │
+│  Strong     │  60-79%     │ 🟢 GREEN      │
+│  Maximum    │  80-100%    │ 💎 BLUE       │
+└─────────────┴─────────────┴───────────────┘
+⚠️ Important Security Notes
 
+▸ NEVER stores passwords
+▸ 100% local analysis
+▸ For optimal security:
+  - Use offline
+  - Toggle visibility only in private
+  - Close after use
+📜 License & Contribution
+
+MIT Licensed | © 2025 ARHACX
+
+Want to contribute?
+1. Fork repo
+2. Create branch
+3. Submit PR
+4. Discuss in Issues first for major changes
