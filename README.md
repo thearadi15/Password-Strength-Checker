@@ -35,7 +35,7 @@ A sophisticated password security analysis tool with military-grade evaluation a
 - Tkinter (usually included with Python)
 
 # Clone the repository
-git clone https://github.com/yourusername/arhacx-password-analyzer.git
+git clone https://github.com/thearadi15/Password-Strength-Checker.git
 
 # Navigate to project directory
 cd arhacx-password-analyzer
