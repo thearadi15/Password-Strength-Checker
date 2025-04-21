@@ -34,7 +34,6 @@ A sophisticated password security analysis tool with military-grade evaluation a
 - Python 3.8+
 - Tkinter (usually included with Python)
 
-bash
 # Clone the repository
 git clone https://github.com/yourusername/arhacx-password-analyzer.git
 
@@ -49,9 +48,8 @@ python arhacx_analyzer.py
 
 
 ## 🖥️ How to Use
-
+```bash
 1. **Enter Password**  
-   ```bash
    [Password Input Field]
 Type your password (shows as ••••• by default)
 
@@ -99,12 +97,20 @@ View Results
   - Use offline
   - Toggle visibility only in private
   - Close after use
-📜 License & Contribution
+   
 
-MIT Licensed | © 2025 ARHACX
+## 📜 **LICENSE & CONTRIBUTION**
 
-Want to contribute?
-1. Fork repo
-2. Create branch
-3. Submit PR
-4. Discuss in Issues first for major changes
+
+███████████████████████████████████████
+█                                   █
+█   🛡️ **MIT LICENSE**              █
+█   • Free to use/modify/distribute █
+█   • See LICENSE file for details  █
+█                                   █
+█   💻 **CONTRIBUTING**             █
+█   • Fork → Branch → PR            █
+█   • Open Issues for major changes █
+█   • Follow ARHACX code standards  █
+█                                   █
+███████████████████████████████████████
